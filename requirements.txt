@@ -1,0 +1,8 @@
+langchain
+langgraph
+typing
+langchain-core
+langchain_openai
+langchain-groq
+streamlit
+dotenv
