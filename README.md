@@ -46,7 +46,7 @@ This chatbot supports:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/sanojDD/chatbot.git
 cd your-repo
 ```
 
