@@ -48,7 +48,7 @@ This chatbot supports:
 
 ```bash
 git clone https://github.com/sanojDD/chatbot.git
-cd your-repo
+cd chatbot
 ```
 
 2️⃣ Create Virtual Environment
