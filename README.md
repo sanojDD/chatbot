@@ -3,23 +3,70 @@ Guffadi bot
 
 ![Alt Text](ui.png)
 
-# Chatbot Project
+# 🧠 LangGraph AI Chatbot with Tools & Memory
 
-A conversational chatbot application built with **Streamlit**, **LangGraph**, and **LangChain**. This project provides an interactive chat interface with conversation history management and AI-powered responses.
+A tool-augmented AI chatbot built using **LangGraph**, **LangChain**, and **Google Gemini (via Google Generative AI)**.  
 
-## Features
+This chatbot supports:
+- 🔎 Web Search (DuckDuckGo)
+- 🧮 Calculator Tool
+- 📈 Real-time Stock Price Fetching
+- 💾 Persistent Chat Memory (SQLite Checkpointing)
 
-- 💬 **Interactive Chat Interface** - User-friendly web UI built with Streamlit
-- 🤖 **AI-Powered Responses** - Powered by LangGraph backend and LangChain
-- 📝 **Conversation History** - Persistent message history within session
-- 🔄 **Stateful Conversations** - Thread-based conversation management for context awareness
-- ⚡ **Real-time Responses** - Instant message processing and display
+---
 
-## Tech Stack
+## 🚀 Features
 
-- **Frontend**: [Streamlit](https://streamlit.io/) - Python web app framework
-- **Backend**: [LangGraph](https://langchain-ai.github.io/langgraph/) - Agentic framework for conversational AI
-- **LLM Integration**: [LangChain](https://www.langchain.com/) - LLM framework
-- **Language**: Python 3.8+
+- ✅ Google Gemini LLM Integration
+- ✅ Tool Calling (Search, Calculator, Stock API)
+- ✅ Conditional Tool Execution
+- ✅ Persistent Chat History using SQLite
+- ✅ Multi-thread Conversation Support
+- ✅ Modular & Extensible Architecture
 
-## Project Structure
+---
+
+## 🏗️ Tech Stack
+
+- **LangGraph**
+- **LangChain**
+- **Google Generative AI (Gemini)**
+- **DuckDuckGo Search**
+- **SQLite**
+- **Alpha Vantage API**
+- **Python**
+
+---
+
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
+
+2️⃣ Create Virtual Environment
+python -m venv venv
+source venv/bin/activate      # Mac/Linux
+venv\Scripts\activate         # Windows
+
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+
+
+🔐 Environment Variables
+Create a .env file in the root directory:
+
+
+GOOGLE_API_KEY=your_google_api_key_here
+
+
+
+
