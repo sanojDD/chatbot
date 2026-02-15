@@ -5,19 +5,20 @@ Guffadi bot
 
 # 🧠 LangGraph AI Chatbot with Tools & Memory
 
-A tool-augmented AI chatbot built using **LangGraph**, **LangChain**, and **Google Gemini (via Google Generative AI)**.  
+A tool-augmented AI chatbot built using **LangGraph**, **LangChain**, and **Google Gemini/openai **.  
 
 This chatbot supports:
 - 🔎 Web Search (DuckDuckGo)
 - 🧮 Calculator Tool
 - 📈 Real-time Stock Price Fetching
 - 💾 Persistent Chat Memory (SQLite Checkpointing)
+- .... Streaming effect
 
 ---
 
 ## 🚀 Features
 
-- ✅ Google Gemini LLM Integration
+- ✅ Google Gemini/openai/groq LLM Integration
 - ✅ Tool Calling (Search, Calculator, Stock API)
 - ✅ Conditional Tool Execution
 - ✅ Persistent Chat History using SQLite
