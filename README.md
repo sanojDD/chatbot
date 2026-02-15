@@ -51,22 +51,32 @@ git clone https://github.com/sanojDD/chatbot.git
 cd chatbot
 ```
 
-2️⃣ Create Virtual Environment
+## 2️⃣ Create and Activate Virtual Environment
+
+```bash
+# Create virtual environment
 python -m venv venv
-source venv/bin/activate      # Mac/Linux
-venv\Scripts\activate         # Windows
 
+# Activate (Mac/Linux)
+source venv/bin/activate
 
+# Activate (Windows)
+venv\Scripts\activate
+```
+
+```bash
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+```
 
 
-
+```bash
 🔐 Environment Variables
 Create a .env file in the root directory:
 
-
 GOOGLE_API_KEY=your_google_api_key_here
+
+```
 
 
 
